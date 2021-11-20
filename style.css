@@ -39,6 +39,11 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    display: inline-block;
+    padding: .5em 1.5em;
+}
+
 
 /*  */
 .wrapper {
@@ -80,8 +85,20 @@ a {
     display: flex;
 }
 
+.header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header_left > * {
     max-width: 70%;
+}
+
+.header_left a {
+    background-color: var(--clr3);
+    border-radius: 5px;
+    align-self: flex-start;
 }
 
 /* random section */
@@ -123,5 +140,36 @@ a {
 .thor {
     text-align: right;
     font-weight: 900;
+}
+
+/* cta section */
+#cta {
+    padding: 3rem 0;
+}
+
+#cta .wrapper {
+    background-color: var(--clr3);
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.cta_flex {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta_flex p {
+    margin: 0;
+}
+
+.cta_flex p:nth-of-type(1) {
+    margin-bottom: .em;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
