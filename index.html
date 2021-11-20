@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <nav class="navbar">
+    <nav id="navbar">
         <div class="wrapper">
-            <div class="header-logo">
+            <div class="navbar-logo">
                 The Odin Project
             </div>
             <ul class="nav">
-                <li class="nav_item"><a href="#header" class="nav_link"></a></li>
-                <li class="nav_item"><a href="" class="nav_link"></a></li>
-                <li class="nav_item"><a href="" class="nav_link"></a></li>
+                <li class="nav_item"><a href="#header" class="nav_link">Header</a></li>
+                <li class="nav_item"><a href="#random" class="nav_link">Random</a></li>
+                <li class="nav_item"><a href="#cta" class="nav_link">CTA</a></li>
             </ul>
         </div>
     </nav>
@@ -24,32 +25,32 @@
         <div class="wrapper">
             <header class="header_left">
                 <h1>TOP is awesome</h1>
-                <p></p>
+                <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
                 <a href="" class="btn">Sign up</a>
             </header>
             <div class="header_right">
-                <img src="" alt="">
+                <img src="https://unsplash.it/600/300" alt="">
             </div>
         </div>
     </header>
-    <section class="random">
+    <section id="random">
         <div class="wrapper">
             <h2>Some random information</h2>
             <div class="random_flex">
                 <div class="random_card">
-                    <img src="unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
                     <p>This is some subtext under an illustration or image</p>
                 </div>
                 <div class="random_card">
-                    <img src="unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
                     <p>This is some subtext under an illustration or image</p>
                 </div>
                 <div class="random_card">
-                    <img src="unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
                     <p>This is some subtext under an illustration or image</p>
                 </div>
                 <div class="random_card">
-                    <img src="unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
                     <p>This is some subtext under an illustration or image</p>
                 </div>
             </div>
@@ -63,7 +64,7 @@
         </div>
     </section>
 
-    <section class="cta">
+    <section id="cta">
         <div class="wrapper">
             <div class="cta-flex">
                 <div class="left">
@@ -77,7 +78,9 @@
         </div>
     </section>
     <footer class="footer">
-        <p>Copyright &copy; The Odin Project 2021</p>
+        <div class="wrapper">
+            <p>Copyright &copy; The Odin Project 2021</p>
+        </div>
     </footer>
 </body>
 </html>
