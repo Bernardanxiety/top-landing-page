@@ -85,7 +85,43 @@ a {
 }
 
 /* random section */
+#random {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#random h2 {
+    margin-top: 0;
+}
+
 .random_flex {
+    margin-top: 2rem;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.random_card {
+    width: 200px;
+    color: hsl(220, 13%, 51%);
+}
+
+/* quote */
+#quote {
+    background-color: var(--clr2);
+}
+
+#quote .wrapper {
+    max-width: 800px;
+    padding: 2rem 0;
+}
+
+.quote_italicized {
+    color: hsl(220, 13%, 41%);
+    font-size: 1.6rem;
+}
+
+.thor {
+    text-align: right;
+    font-weight: 900;
 }
 
