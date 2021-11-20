@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,300&display=swap');
+
+:root {
+    --clr1: #F9FAF8;
+    --clr2: #E5E7EB;
+    --clr3: #3882F6;
+    --clr4: #1F2937;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    color: var(--clr2);
+}
+
+.navbar-logo,
+header h1,
+.btn {
+    color: var(--clr1);
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: .25em;
+}
+
+#random h2,
+.thor {
+    color: var(--clr4);
+}
+
+a {
+    color: var(--link, #fff);
+    text-decoration: none;
+}
+
+
+/*  */
+.wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar,
+#header {
+    background-color: var(--clr4);
+}
+
+/* navbar */
+#navbar .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar {
+    padding: .75rem 0;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* hero section */
+#header {
+    padding: 4rem 0 4.75rem;
+}
+
+#header .wrapper {
+    display: flex;
+}
+
+.header_left > * {
+    max-width: 70%;
+}
+
+/* random section */
+.random_flex {
+    display: flex;
+}
+
