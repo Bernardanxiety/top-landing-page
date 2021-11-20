@@ -173,3 +173,23 @@ a {
     font-weight: 700;
 }
 
+.cta_flex .btn {
+    outline: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* footer */
+#footer {
+    background-color: var(--clr4);
+}
+
+#footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#footer p {
+    margin: 0;
+}
